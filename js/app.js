@@ -137,7 +137,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/";
+/******/ 	__webpack_require__.p = "/domestic-tales/";
 /******/
 /******/ 	var jsonpArray = window["webpackJsonp"] = window["webpackJsonp"] || [];
 /******/ 	var oldJsonpFunction = jsonpArray.push.bind(jsonpArray);
@@ -187,7 +187,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n//\n/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  name: 'video_container',\n  props: ['play'],\n  data: function data() {\n    return {\n      publicPath: \"/\"\n    };\n  },\n  watch: {\n    play: function play() {\n      if (this.play == false) {\n        // this.$refs.iframe[0].pause()\n        this.$refs.video.pause();\n      } else {\n        // this.$refs.iframe[0].play()\n        this.$refs.video.play();\n      }\n    }\n  },\n  mounted: function mounted() {// const video = this.$refs.video\n    // setTimeout(() => video.muted = false video.play(), 2000);\n    // setTimeout( () => video.muted = false ), 100 )\n  }\n});\n\n//# sourceURL=webpack:///./src/components/video_module.vue?./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options");
+eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  name: 'video_container',\n  props: ['play'],\n  data: function data() {\n    return {\n      publicPath: \"/domestic-tales/\"\n    };\n  },\n  watch: {\n    play: function play() {\n      if (this.play == false) {\n        // this.$refs.iframe[0].pause()\n        this.$refs.video.pause();\n      } else {\n        // this.$refs.iframe[0].play()\n        this.$refs.video.play();\n      }\n    }\n  },\n  mounted: function mounted() {// const video = this.$refs.video\n    // setTimeout(() => video.muted = false video.play(), 2000);\n    // setTimeout( () => video.muted = false ), 100 )\n  }\n});\n\n//# sourceURL=webpack:///./src/components/video_module.vue?./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options");
 
 /***/ }),
 
